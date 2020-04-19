@@ -26,6 +26,7 @@ def construct_words(n: int, depth: int) -> str:
 
 
 def beautify_words(s: str) -> str:
+    s = s.replace('satu belas', 'sebelas')
     s = s.replace('satu ratus', 'seratus')
     s = s.replace('satu ribu', 'seribu')
     s = s.replace('satu juta', 'sejuta')
@@ -69,9 +70,7 @@ def get_number(n: int) -> str:
         number = 'sembilan'
     elif n == 10:
         number = 'sepuluh'
-    elif n == 11:
-        number = 'sebelas'
-    elif n > 11 and n < 20:
+    elif n >= 11 and n < 20:
         number = get_number(n % 10) + ' belas'
     elif n >= 20 and n < 100:
         result, remaining = divmod(n, 10)
