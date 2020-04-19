@@ -2,7 +2,7 @@ def number_to_words(n: int) -> str:
     TRILLION_LIMIT = 999_999_999_999_999
 
     is_integer = type(n) == int
-    is_positive = n > 0
+    is_positive = n >= 0
     is_less_than_trilion = n < TRILLION_LIMIT
 
     if not (is_integer and is_positive and is_less_than_trilion):
@@ -82,6 +82,8 @@ def get_number(n: int) -> str:
 
 
 if __name__ == '__main__':
+    print(number_to_words(0))
+    assert number_to_words(0) == 'nol'
     print(number_to_words(10))
     assert number_to_words(10) == 'sepuluh'
     print(number_to_words(55))
