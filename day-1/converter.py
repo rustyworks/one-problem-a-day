@@ -82,23 +82,23 @@ def get_number(n: int) -> str:
 
 
 if __name__ == '__main__':
-    assert number_to_words(10) == 'sepuluh'
     print(number_to_words(10))
-    assert number_to_words(55) == 'lima puluh lima'
+    assert number_to_words(10) == 'sepuluh'
     print(number_to_words(55))
-    assert number_to_words(1253) == 'seribu dua ratus lima puluh tiga'
+    assert number_to_words(55) == 'lima puluh lima'
     print(number_to_words(1253))
-    assert number_to_words(1010101) == 'sejuta sepuluh ribu seratus satu'
+    assert number_to_words(1253) == 'seribu dua ratus lima puluh tiga'
     print(number_to_words(1010101))
-    assert number_to_words(5400000) == 'lima juta empat ratus ribu'
+    assert number_to_words(1010101) == 'sejuta sepuluh ribu seratus satu'
     print(number_to_words(5400000))
-    assert number_to_words(111_111_111_111_111) == 'seratus sebelas triliun seratus sebelas miliar seratus sebelas juta seratus sebelas ribu seratus sebelas'  # noqa
+    assert number_to_words(5400000) == 'lima juta empat ratus ribu'
     print(number_to_words(111_111_111_111_111))
-    assert number_to_words(555_555_555_555_555) == 'lima ratus lima puluh lima triliun lima ratus lima puluh lima miliar lima ratus lima puluh lima juta lima ratus lima puluh lima ribu lima ratus lima puluh lima'  # noqa
+    assert number_to_words(111_111_111_111_111) == 'seratus sebelas triliun seratus sebelas miliar seratus sebelas juta seratus sebelas ribu seratus sebelas'  # noqa
     print(number_to_words(555_555_555_555_555))
-    assert number_to_words(-1) == ''
+    assert number_to_words(555_555_555_555_555) == 'lima ratus lima puluh lima triliun lima ratus lima puluh lima miliar lima ratus lima puluh lima juta lima ratus lima puluh lima ribu lima ratus lima puluh lima'  # noqa
     print(number_to_words(-1))
-    assert number_to_words(1.1) == ''
+    assert number_to_words(-1) == ''
     print(number_to_words(1.1))
-    assert number_to_words(1_111_111_111_111_111) == ''
+    assert number_to_words(1.1) == ''
     print(number_to_words(1_111_111_111_111_111))
+    assert number_to_words(1_111_111_111_111_111) == ''
