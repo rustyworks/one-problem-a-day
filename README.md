@@ -11,3 +11,14 @@ Angka ke kata
 sepuluh  
 lima puluh lima  
 sejuta sepuluh ribu seratus satu  
+
+
+### Day 2
+#### Problem Desc
+Jumlah angka kelipatan 3 dan 5 dibawah n  
+
+#### Input
+10  
+
+#### Output
+23  
