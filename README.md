@@ -41,3 +41,15 @@ Angka tertinggi kedua, dengan 1x loop
 4  
 None  
 None  
+
+
+### Day 4
+#### Problem Desc
+Swap case  
+
+
+#### Input
+hEllO wOrLd  
+
+#### Output
+HeLLo WoRlD  
