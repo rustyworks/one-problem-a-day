@@ -53,3 +53,28 @@ hEllO wOrLd
 
 #### Output
 HeLLo WoRlD  
+
+
+### Day 5
+#### Problem Desc
+Convert seconds to HH:MM:SS  
+
+#### Input
+3661  
+61  
+1  
+63  
+124  
+53  
+88  
+120  
+
+#### Output
+01:01:01  
+00:01:01  
+00:00:01  
+00:01:03  
+00:02:04  
+00:00:53  
+00:01:28  
+00:02:00  
