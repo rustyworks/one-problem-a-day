@@ -104,3 +104,14 @@ Longest Palindrome in words
 1  
 4  
 3  
+
+
+### Day 7
+#### Problem Desc
+Prime Gen  
+
+#### Input
+10  
+
+#### Output
+2 3 5 7  
