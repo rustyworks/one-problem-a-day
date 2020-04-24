@@ -78,3 +78,29 @@ Convert seconds to HH:MM:SS
 00:00:53  
 00:01:28  
 00:02:00  
+
+
+### Day6
+#### Problem Desc
+Longest Palindrome in words  
+
+#### Input
+"telugugu"  
+"kasurusak"  
+"array"  
+"a"  
+"aa"  
+"kentang"  
+"xabbadffdx"  
+"abcxxx123"  
+
+
+#### Output
+5  
+9  
+4  
+1  
+2  
+1  
+4  
+3  
