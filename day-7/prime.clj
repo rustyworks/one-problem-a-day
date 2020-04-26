@@ -12,7 +12,7 @@
   (when (< (peek primes) n)
     (doseq [x (range (inc (peek primes)) n)]
       (when (is-prime? x)
-        (def user/primes (conj primes x)))))
+        (def user/primes (conj primes x))))) ;; not sure this best solution
   (take-while #(<= % n) primes))
 
 (generate-primes 10)
