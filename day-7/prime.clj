@@ -11,9 +11,8 @@
 (defn generate-primes [n]
   (when (< (peek primes) n)
     (doseq [x (range (inc (peek primes)) n)]
-      (let [x x]
-        (when (is-prime? x)
-          (def user/primes (conj primes x))))))
+      (when (is-prime? x)
+        (def user/primes (conj primes x)))))
   (take-while #(<= % n) primes))
 
 (generate-primes 20)
