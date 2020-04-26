@@ -15,5 +15,6 @@
         (def user/primes (conj primes x)))))
   (take-while #(<= % n) primes))
 
+(generate-primes 10)
 (generate-primes 20)
 (generate-primes 10000)
