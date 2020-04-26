@@ -115,3 +115,20 @@ Prime Gen
 
 #### Output
 2 3 5 7  
+
+
+### Day 8
+#### Problem Desc
+Look and say sequences  
+
+#### Input
+7
+
+#### Output
+1
+11
+21
+1211
+111221
+312211
+13112221
