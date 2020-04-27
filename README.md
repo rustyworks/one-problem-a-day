@@ -132,3 +132,31 @@ Look and say sequences
 111221
 312211
 13112221
+
+
+### Day 9
+#### Problem Desc
+T. TicTacToe  
+
+#### Input
+X T X  
+_ O O  
+_ _ _  
+
+X _ _  
+O _ O  
+T O X  
+
+O _ _  
+O X O  
+T O X  
+
+X _ _  
+O X O  
+T O X  
+
+#### Output
+X Win  
+Draw  
+O Win  
+X Win  
