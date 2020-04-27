@@ -24,5 +24,14 @@
 (defn rot-13 [words]
   (apply str (map char (map rotate (to-ascii-code words)))))
 
+;; (defn rot-13 [words]
+;;   (apply
+;;     str
+;;     ((comp
+;;        (partial map char)
+;;        (partial map rotate)
+;;        to-ascii-code)
+;;      words)))
+
 (rot-13 "KentanG GoReNk")
 (rot-13 "XragnaT TbErAx")
