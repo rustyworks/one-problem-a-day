@@ -139,6 +139,7 @@ Look and say sequences
 T. TicTacToe  
 
 #### Input
+```
 X T X  
 _ O O  
 _ _ _  
@@ -154,9 +155,23 @@ T O X
 X _ _  
 O X O  
 T O X  
+```
 
 #### Output
 X Win  
 Draw  
 O Win  
 X Win  
+
+
+### Day 10
+#### Problem Desc
+ROT-13  
+
+#### Input
+Kentang Goreng  
+Xragnat Tberat  
+
+#### Output
+Xragnat Tberat  
+Kentang Goreng  
