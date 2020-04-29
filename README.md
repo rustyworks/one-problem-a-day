@@ -194,3 +194,14 @@ Max CI Time given Node and list time
 7  
 100  
 320  
+
+
+### Day 12
+#### Problem Desc
+More precise PI  
+
+#### Input
+None  
+
+#### Output
+3.14159265358979323846264338  
