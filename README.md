@@ -175,3 +175,22 @@ Xragnat Tberat
 #### Output
 Xragnat Tberat  
 Kentang Goreng  
+
+
+### Day 11
+#### Problem Desc
+Max CI Time given Node and list time  
+
+#### Input
+10 [3 7 9]  
+3 [10 20 30 40 50]  
+4 [3 2 1 2 1 3 5 7]  
+3 [1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1]  
+4 [219 101 305 222 259]  
+
+#### Output
+9  
+50  
+7  
+100  
+320  
