@@ -9,8 +9,7 @@
               index (.indexOf nodes minimum-time)]
           (if (nil? head)
             (reduce max nodes)
-            (recur (update (vec nodes) index #(+ head %)) (rest remaining-test)))
-          )))))
+            (recur (update (vec nodes) index #(+ head %)) (rest remaining-test))))))))
 
 (get-max-ci-time 10 [3 7 9])  ;; 9
 (get-max-ci-time 3 [10 20 30 40 50])  ;; 50
