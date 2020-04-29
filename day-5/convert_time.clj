@@ -1,7 +1,7 @@
 (defn convert-time [seconds]
   (str
     (format "%02d" (quot seconds 3600))
-    ":" 
+    ":"
     (format "%02d" (quot (mod seconds 3600) 60))
     ":"
     (format "%02d" (mod seconds 60))))

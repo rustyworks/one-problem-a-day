@@ -74,7 +74,7 @@ class TTicTacToe
 end
 
 tttt = TTicTacToe.new
-puts tttt.check_winner('XTX_OO___') 
-puts tttt.check_winner('X__O_OTOX') 
-puts tttt.check_winner('O__OXOTOX') 
+puts tttt.check_winner('XTX_OO___')
+puts tttt.check_winner('X__O_OTOX')
+puts tttt.check_winner('O__OXOTOX')
 puts tttt.check_winner('X__OXOTOX')

@@ -4,4 +4,4 @@
     (range limit)))
 
 (println (apply + (generate-3-or-5 10)))
-(println (apply + (generate-3-or-5 1000))) 
+(println (apply + (generate-3-or-5 1000)))
