@@ -15,10 +15,10 @@
 
 (defn rotate [code]
   (cond
-    (<= uppercase-a-char code uppercase-z-char)  ;; predicate
-    (swap code uppercase-a-char uppercase-z-char)  ;; action
-    (<= lowercase-a-char code lowercase-z-char)  ;; predicate
-    (swap code lowercase-a-char lowercase-z-char)  ;; action
+    (<= uppercase-a-char code uppercase-z-char)  ; predicate
+    (swap code uppercase-a-char uppercase-z-char)  ; action
+    (<= lowercase-a-char code lowercase-z-char)  ; predicate
+    (swap code lowercase-a-char lowercase-z-char)  ; action
     :else code))
 
 (defn rot-13 [words]

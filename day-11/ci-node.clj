@@ -11,8 +11,8 @@
             (reduce max nodes)
             (recur (update (vec nodes) index #(+ head %)) (rest remaining-test))))))))
 
-(get-max-ci-time 10 [3 7 9])  ;; 9
-(get-max-ci-time 3 [10 20 30 40 50])  ;; 50
-(get-max-ci-time 4 [3 2 1 2 1 3 5 7])  ;; 7
-(get-max-ci-time 3 [1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1])  ;; 100
-(get-max-ci-time 4 [219 101 305 222 259])  ;; 320
+(get-max-ci-time 10 [3 7 9])  ; 9
+(get-max-ci-time 3 [10 20 30 40 50])  ; 50
+(get-max-ci-time 4 [3 2 1 2 1 3 5 7])  ; 7
+(get-max-ci-time 3 [1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1])  ; 100
+(get-max-ci-time 4 [219 101 305 222 259])  ; 320
