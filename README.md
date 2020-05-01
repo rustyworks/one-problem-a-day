@@ -205,3 +205,15 @@ None
 
 #### Output
 3.14159265358979323846264338  
+
+
+#### Day 13
+#### Problem Desc
+Simple HTML Content Parser  
+
+#### Input
+"div", "<html><section><div>Kentang Oyeng</div></section><div>Kentang Goreng</div><span>I'm not div</span></html>"  
+
+#### Output
+Kentang Oyeng  
+Kentang Goreng  
