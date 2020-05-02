@@ -217,3 +217,16 @@ Simple HTML Content Parser
 #### Output
 Kentang Oyeng  
 Kentang Goreng  
+
+
+#### Day 14
+#### Problem Desc
+https://www.hackerrank.com/challenges/kangaroo/problem  
+
+#### Input
+0 3 4 2  
+0 2 5 3  
+
+#### Output
+Overlap  
+Tidak Overlap  
