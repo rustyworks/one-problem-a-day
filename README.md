@@ -207,7 +207,7 @@ None
 3.14159265358979323846264338  
 
 
-#### Day 13
+### Day 13
 #### Problem Desc
 Simple HTML Content Parser  
 
@@ -219,7 +219,7 @@ Kentang Oyeng
 Kentang Goreng  
 
 
-#### Day 14
+### Day 14
 #### Problem Desc
 https://www.hackerrank.com/challenges/kangaroo/problem  
 
@@ -230,3 +230,14 @@ https://www.hackerrank.com/challenges/kangaroo/problem
 #### Output
 Overlap  
 Tidak Overlap  
+
+
+### Day 15
+#### Problem Desc
+custom sorting (lower, upper, odd, even)  
+
+#### Input
+Kentang1234  
+
+#### Output
+aegnntK1324  
