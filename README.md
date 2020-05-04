@@ -241,3 +241,16 @@ Kentang1234
 
 #### Output
 aegnntK1324  
+
+
+### Day 16
+#### Problem Desc
+Missing pair  
+
+#### Input
+[9, 3, 9, 3, 9, 7, 9]  
+[1, 2, 3, 4, 3, 2, 1]  
+
+#### Output
+7  
+4  
