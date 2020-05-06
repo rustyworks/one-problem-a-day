@@ -256,7 +256,7 @@ Missing pair
 4  
 
 
-### Day 16
+### Day 17
 #### Problem Desc
 Max profit on one trade  
 
@@ -277,3 +277,19 @@ Max profit on one trade
 200  
 0  
 0  
+
+
+### Day 18
+#### Problem Desc
+Chain of Reports  
+
+#### Input
+[3, 4, 3, 0, 2, 2, 3, 0, 0]  
+[4, 2, 0]  
+[1, 1, 1, 1, 1, 2, 2, 3]  
+
+
+#### Output
+5  
+0  
+7  
