@@ -293,3 +293,14 @@ Chain of Reports
 5  
 0  
 7  
+
+
+### Day 19
+#### Problem Desc
+Encode  
+
+#### Input
+WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB  
+
+#### Output
+12WB12W3B24WB  
