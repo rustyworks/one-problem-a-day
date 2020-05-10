@@ -339,3 +339,14 @@ Anagram
 
 #### Output
 inlets  
+
+
+### Day 23
+#### Problem Desc
+Mortgage calculator  
+
+#### Input
+300000, 60000, 3.8, 30  
+
+#### Output
+402587  
