@@ -328,3 +328,14 @@ ISBN Verifier
 #### Output
 Valid  
 Invalid  
+
+
+### Day 22
+#### Problem Desc
+Anagram  
+
+#### Input
+"listen", ["enlists", "google", "inlets", "banana"]  
+
+#### Output
+inlets  
