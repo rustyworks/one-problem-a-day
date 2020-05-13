@@ -380,3 +380,14 @@ Find max 4 value from grid
 
 #### Output
 70600674  
+
+
+### Day 25
+#### Problem Desc
+Find sum of factorial  
+
+#### Input
+10  
+
+#### Output
+27  
